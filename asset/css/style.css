@@ -1,0 +1,179 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    color: aliceblue;
+    background-color: #4967d5;
+
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #a7a7a8;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1F4788FF;
+}
+  
+.navbar{
+    z-index: 1000;
+}
+.user-pref-one{
+    background-color: #4967d5;
+    color: aliceblue;
+}
+
+.user-pref{
+}
+
+.user-hover{
+    transition: 0.5s ease-in-out;
+}
+.user-hover:hover{
+    transform: scale(1.009) translateX(-10px);
+    color: #e0e4f6;  
+}
+
+.bg-image {
+    margin: 0;
+    background-image: url("/asset/images/IMAX-banner-2.jpg");
+    filter: blur(8px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #4967d5;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+    justify-items: center;
+    left: 10%;
+    top: 10%;
+}
+.text-user{
+    text-align: center;
+    font-size:50px;
+    color: #e0efff;
+    /* box-shadow: 10px 10px 29px #02f3ff8c; */
+}
+
+.names-des{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 16px 0px 40px 0px;
+    display: inline-block;
+    border: 1px solid #4967d5;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #504ba33b;
+    transition: 0.5s ease-in-out;
+
+}
+.names-des:hover{
+    transform: scaleY(1.4);
+}
+
+.names{
+    color: #e0efff;
+}
+
+.botton-user{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(31, 72, 160);
+    margin: 4% 0% 2% 25%;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.botton-user:hover{
+    z-index: 1000000;
+    transform: scale(1.2);
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(79, 117, 199);
+    margin: 4% 0% 2% 25%;
+    border-radius: 20px;
+    font-size: 19px;
+}
+
+.card-img-tops{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    margin: 2px 0px 0px 0px;
+}
+
+.card-img{
+    width: 10%;
+    margin: -5px;
+}
+.card-img-cols{
+    margin: -11% 12px 0px 70%;
+
+}
+.padding-user{
+    padding: 10px;
+}
+
+.font-user{
+    font-size: 160%;
+    transform: translateX(20px) translateY(20px);
+    text-align: left;
+    color: #e0efff;
+}
+
+.user-pref-tow{
+    margin: 35% 0px 0px 87%;
+    position: absolute;
+}
+
+.user-pref-tree{
+    color: red;
+    position:absolute;
+    /* transform: translateX(2px) translateY(-150px); */
+    margin: 3px 6px 0px 80%;
+    text-align: end;
+    justify-content: end;
+}
+.fa-trash-can{
+    color: red;
+}
+
+.card{
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+/* @media source (bg-text: ){
+    tx */

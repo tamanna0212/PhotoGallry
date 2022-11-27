@@ -1,0 +1,147 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    color: aliceblue;
+    background-color: #4967d5;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #a899ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1F4788FF;
+}
+  
+.navbar{
+    z-index: 1000;
+}
+.user-pref-one{
+    background-color: #4967d5;
+    color: aliceblue;
+}
+
+.user-pref{
+}
+
+.user-hover{
+    transition: 0.5s ease-in-out;
+}
+.user-hover:hover{
+    transform: scale(1.009) translateX(-10px);
+    color: #e0e4f6;  
+}
+
+.bg-image {
+    margin: 0;
+    background-image: url("/asset/images/IMAX-banner-2.jpg");
+    filter: blur(8px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #4967d5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 35%;
+    padding: 30px;
+}
+.text-user{
+    text-align: center;
+    font-size:50px;
+    color: #e0efff;
+    /* box-shadow: 10px 10px 29px #02f3ff8c; */
+}
+
+.names-des{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 16px 0px 40px 0px;
+    display: inline-block;
+    border: 1px solid #4967d5;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #504ba33b;
+    transition: 0.5s ease-in-out;
+
+}
+.names-des:hover{
+    transform: scaleY(1.4);
+}
+  
+.texearea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #4967d5;
+    border-radius: 10px;
+    background-color: #504ba33b;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    resize: none;
+    margin: 16px 0px 16px 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.texearea:hover{
+    transform: scaleY(1.2) translateY(10px);  
+
+}
+
+.names{
+    color: #e0efff;
+}
+.names:hover{
+
+}
+
+.botton-user{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(31, 72, 160);
+    margin: 4% 0% 2% 25%;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+
+.botton-user:hover{
+    transform: scale(1.2);
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(79, 117, 199);
+    margin: 4% 0% 2% 25%;
+    border-radius: 20px;
+    font-size: 19px;
+}
