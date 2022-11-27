@@ -57,11 +57,10 @@ body, html {
     font-weight: bold;
     border: 3px solid #4967d5;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 35%;
     padding: 30px;
 }
 .text-user{
@@ -145,3 +144,12 @@ body, html {
     border-radius: 20px;
     font-size: 19px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .bg-text {
+        margin-top: 10px;
+        width: 90%;
+        padding: 11px;
+    }
+  }
